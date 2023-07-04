@@ -18,7 +18,9 @@ Lorsqu'un voyageur attend un train **k**à la gare **s**, le train peut se trouv
 > Sous-dossier contenant les [dataset initiaux](https://drive.google.com/drive/folders/1wy4jZIqqiCMvt4k-XR_OLmIDTOlAyMev?usp=drive_link) (fournis lors du challenge), et [nouveaux datasets](https://drive.google.com/drive/folders/1-dp8W0WQY7D_9BPany2oIZ0x8mI4wapP?usp=drive_link) (construits dans les différents notebook pour améliorer les modèles)
 
 * [Notebooks](https://drive.google.com/drive/folders/1ZXUqG1bHBuZ8sLsPqNWRYPV-Dd1DP8Of?usp=drive_link) : 
-> Sous-dossie]r contenant les 6 notebooks utilisés pour construire les modèles de prédiction, et nouveaux datasets  
+> Sous-dossier contenant les 6 notebooks utilisés pour construire les modèles de prédiction, et nouveaux datasets  
+
+Le [notebook 0](https://colab.research.google.com/drive/1-Gh7Eb7gZxQC46j7VU9qQYaE6t4LCbva?usp=sharing) contient le preprocessing initial (commun à chaque construction de modèle) et présente les motivations de chacun des autres notebook  
 
 > En particulier :  
 On a décidé de comparer plusieurs méthodes :

@@ -20,24 +20,9 @@ Lorsqu'un voyageur attend un train **k**à la gare **s**, le train peut se trouv
 * [Notebooks](https://drive.google.com/drive/folders/1ZXUqG1bHBuZ8sLsPqNWRYPV-Dd1DP8Of?usp=drive_link) : 
 > Sous-dossier contenant les 6 notebooks utilisés pour construire les modèles de prédiction, et nouveaux datasets  
 
-Le [notebook 0](https://colab.research.google.com/drive/1-Gh7Eb7gZxQC46j7VU9qQYaE6t4LCbva?usp=sharing) contient le preprocessing initial (commun à chaque construction de modèle) et présente les motivations de chacun des autres notebook  
+>Le [notebook 0](https://colab.research.google.com/drive/1-Gh7Eb7gZxQC46j7VU9qQYaE6t4LCbva?usp=sharing) contient le preprocessing initial (commun à chaque construction de modèle) et présente les motivations de chacun des autres notebook  
 
-> En particulier :  
-On a décidé de comparer plusieurs méthodes :
-* un modèle qui ignore les valeurs historiques (et donc les NAN) et utilise uniquement les variables contextuelles sans les variables historiques
-> [notebook : 1_Model_Contextuel](https://colab.research.google.com/drive/1gE5fYW7pLHTKK_p58lutKf-TBwgLpfM9?usp=sharing)
 
-* un modèle qui utilise uniquement les variables historiques en ignorant les variables contextuelles
-> [notebook : 2_model_Historique](https://colab.research.google.com/drive/1YaTJtLC31DAsB5Zvj9gv9YaJTo_6xiMr?usp=sharing)
-
-* un modèle qui utilise les 2 types de variables sur l'ensemble du dataset
-> [notebook : 3_Model_FullDataset](https://colab.research.google.com/drive/16PmMoDXvzsJl9yHDuEDrXx8q0rF_82JU?usp=sharing)
-
-* un modèle, composé de plusieurs subdivisions spécialisées (une pour chaque combinaison de position de nan qui apporte une information sur le niveau sur la ligne de train et la gare)
-> [notebook : 4_Model_Specialised](https://colab.research.google.com/drive/1-7KGxkhTlh4ozYbjF2YkzQCNaEZgw-M6?usp=sharing)
-
-* un notebook exploitant les erreurs du dataset pour obtenir le meilleur score possible dans le cadre du challenge
-> [notebook : 5_Best_score](https://colab.research.google.com/drive/13oXVoK3tPACRXKE2RyEfVn_NO2nKV0L_?usp=sharing)
 
 
 

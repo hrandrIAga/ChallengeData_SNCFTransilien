@@ -1,7 +1,7 @@
 # ML_for_networks
 
-## Résultats au 28/07/2023 (challenge en cours) : 
-> **1e position avec un MAE de 0.0005**
+## Résultats au 20/11/2023 (challenge en cours) : 
+> **10e position / 140 avec un MAE de 0.0005**
 
 A compléter :
 * Projet de groupe dans le cadre du module NET4550 de Télécom Sudparis (Haga RANDRIANALY, Pierre DOMACHOWSKI, Adam GHALEM)
